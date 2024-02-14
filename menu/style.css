@@ -42,6 +42,7 @@ body{
     flex-direction: column;
     border-radius: 0 24px 24px 0;
     background: #fff;
+    align-items: center;
 }
 
 .list_item{
@@ -82,22 +83,69 @@ body{
     height: 0;
 }
 
-.content_article{
-    margin-left: 400px;
-    margin-top: -700px;
+.list_img_1{
+    margin-left: -100px;
+    margin-right: 35px;
+    margin-top:none;
+} 
+
+.content_main{
+    margin-left: 389px;
+    margin-top: -100vh;
     width: auto;
 }
 
+.content_article{
+    margin-left: none;
+    margin-top:0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #fff;
+    flex-direction:column;
+    height: 100vh;
+} 
+
+.content_article_principal{
+    margin-left: 20px;
+}
 /*Pruebas-citas*/
 
 .content_article_citas{
-    margin-left: 700px;
-    margin-top: -700px;
-    width: auto;
+    width: 400px;
+    height: 100vh;
+    display: flex;/*Centra lo que hay dentro*/
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 12px 12px 12px 12px;
+    background: #d6d6d6;
 }
 
-.content_aside_citas{
-    margin-left: 400px;
-    /* margin-top: -700px; */
-    width: auto;
+.content_article_citas_texto{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.content_aside_1{
+    margin-left: 407px;
+    margin-top: -100vh;
+    height: 100vh;
+    width: 400px;
+    display: flex;/*Centra lo que hay dentro*/
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 12px 12px 12px 12px;
+    background: #d6d6d6;
+}
+
+.content_aside_calendar{
+    margin-left: 813px;
+    margin-top: -100vh;
+    height: 100vh;
+    width: 1000px;
+    display: flex;/*Centra lo que hay dentro*/
+    justify-content: center;
+    flex-direction: column;/*En que direccion se hace el centro*/
+    border-radius: 12px 12px 12px 12px;
+    background: #afafaf;
 }
